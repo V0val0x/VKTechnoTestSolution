@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClockView">
+        <attr name="longPointerColor" format="color" />
+        <attr name="shortPointerColor" format="color" />
+        <attr name="tickMarkColor" format="color" />
+        <attr name="centerCircleColor" format="color" />
+    </declare-styleable>
+</resources>

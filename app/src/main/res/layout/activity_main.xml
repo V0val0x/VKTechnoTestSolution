@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.clockapp.ClockView
+        android:id="@+id/clock_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:centerCircleColor="#FF0000"
+        app:longPointerColor="#000000"
+        app:shortPointerColor="#808080"
+        app:tickMarkColor="#000000" />
+
+</RelativeLayout>
